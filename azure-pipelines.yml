@@ -12,3 +12,4 @@ pool:
 steps:
 - script: |
     echo Starting the build
+    javac
