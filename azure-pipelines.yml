@@ -12,4 +12,5 @@ pool:
 steps:
 - script: |
     echo Starting the build
+    ifconfig
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
