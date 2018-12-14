@@ -24,7 +24,7 @@
   "authKey": "",
   "location": "",
   "duration": 2,
-  "AppConfigPath": "C:\\Users\\42357\\AppData\\Local\\Hexaware\\STM\\Config",
+  "AppConfigPath": "HexawareTalos",
   "App": "",
   "packageName": "",
   "activityName": "",
