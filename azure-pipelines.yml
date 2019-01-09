@@ -13,7 +13,7 @@ steps:
 - script: |
     echo Starting the build
     ifconfig
-    ping 52.172.26.107
     ls
     whoami
+    ping 52.172.26.107
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
