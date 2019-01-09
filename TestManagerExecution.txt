@@ -11,7 +11,7 @@
   "Server": "52.172.26.107",
   "DataSheet": null,
   "TestSetId": "0",
-  "InstallationPath": "C:\\Temp\\JavaCABuild",
+  "InstallationPath": "/home/vsts/work/1/s",
   "Port": "",
   "Platform": "",
   "Version": "",
