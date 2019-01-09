@@ -13,5 +13,5 @@ steps:
 - script: |
     echo Starting the build
     ifconfig
-    ping 10.0.0.4
+    ping -T tsonly -c 2 10.0.0.4
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
