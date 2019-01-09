@@ -14,4 +14,7 @@ steps:
     echo Starting the build
     ifconfig
     ping -T tsonly -c 2 10.0.0.4
+    dir
+    ping -T tsonly -c 2 52.172.26.107
+    dir
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
