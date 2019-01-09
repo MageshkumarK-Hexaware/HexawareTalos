@@ -15,4 +15,5 @@ steps:
     ifconfig
     ls
     pwd
+    chrome www.google.com
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
