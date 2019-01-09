@@ -13,5 +13,6 @@ steps:
 - script: |
     echo Starting the build
     ifconfig
-    ls    
+    ls
+    pwd
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
