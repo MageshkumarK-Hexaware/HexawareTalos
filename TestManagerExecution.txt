@@ -8,7 +8,7 @@
   "Browser": "Chrome",
   "PrefixParameter": "DT_",
   "PrefixGlobalParameter": "GDT_",
-  "Server": "52.172.26.107",
+  "Server": "10.0.0.4",
   "DataSheet": null,
   "TestSetId": "0",
   "InstallationPath": "C:\\Temp\\JavaCABuild",
