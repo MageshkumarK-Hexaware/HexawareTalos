@@ -24,7 +24,7 @@
   "authKey": "",
   "location": "",
   "duration": 2,
-  "AppConfigPath": "HexawareTalos",
+  "AppConfigPath": "/home/vsts/work/1/s",
   "App": "",
   "packageName": "",
   "activityName": "",
