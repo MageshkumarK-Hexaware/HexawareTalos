@@ -14,7 +14,7 @@ steps:
     echo Starting the build
     #ssh 41926@52.172.26.107 C:\a.txt
     #Hexaware@123
-    cat \\10.0.0.4\RunBat\a.txt
+    cat /10.0.0.4\RunBat\a.txt
     ls
     pwd
     #java -jar RunnableSTMJava.jar TestManagerExecution.txt
