@@ -11,7 +11,9 @@ pool:
 
 steps:
 - script: |
-    more \\10.0.0.4\RunBat\a.txt
+    echo StartOf
+    md abc
+    type \\10.0.0.4\RunBat\a.txt
     echo Starting the build    
     #ssh 41926@52.172.26.107 C:\a.txt
     #Hexaware@123
