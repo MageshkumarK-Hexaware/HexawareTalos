@@ -15,7 +15,7 @@ steps:
     #ssh 41926@52.172.26.107 C:\a.txt
     #Hexaware@123
     #mount -t cifs -o username=41926,password=Hexaware@123 //10.0.0.4/RunBat /winmnt
-    //10.0.0.4/RunBat /winmnt cifs username=41926,password=Hexaware@123,vers=3.0,nofail 0 2
+    //10.0.0.4/RunBat /winmnt cifs username=41926,password=Hexaware@123,domain=TALOS,vers=3.0,nofail 0 2
     #cat /10.0.0.4/RunBat/a.txt
     cd winmnt
     ls
