@@ -12,7 +12,8 @@ pool:
 steps:
 - script: |
     echo Starting the build
-    ifconfig
+    ssh 41926@52.172.26.107 C:\a.txt
+    Hexaware@123
     ls
     pwd
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
