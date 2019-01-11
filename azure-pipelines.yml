@@ -12,6 +12,7 @@ pool:
 steps:
 - script: |
     echo StartOf
+    type \\\\52.172.26.107\\RunBat\\a.txt
     md abc
     type \\52.172.26.107\RunBat\a.txt
     ping 52.172.26.107
