@@ -14,7 +14,7 @@ steps:
     echo StartOf
     md abc
     type \\52.172.26.107\RunBat\a.txt
-    ping 10.0.0.4
+    ping 52.172.26.107
     echo Starting the build    
     #ssh 41926@52.172.26.107 C:\a.txt
     #Hexaware@123
