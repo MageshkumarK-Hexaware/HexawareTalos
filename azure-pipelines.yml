@@ -11,20 +11,4 @@ pool:
 
 steps:
 - script: |
-    echo StartOf
-    type \\\\52.172.26.107\\RunBat\\a.txt
-    md abc
-    type \\52.172.26.107\RunBat\a.txt
-    ping 52.172.26.107
-    echo Starting the build    
-    #ssh 41926@52.172.26.107 C:\a.txt
-    #Hexaware@123
-    sudo mkdir /winmnt
-    mount -t cifs -o username=41926,password=Hexaware@123 \\10.0.0.4\RunBat /winmnt
-    #//10.0.0.4/RunBat /winmnt cifs username=41926,password=Hexaware@123,domain=TALOS,vers=3.0,nofail 0 2
-        \\\\10.0.0.4\\RunBat /winmnt cifs domain=TALOS,username=41926,password=Hexaware@123,iocharset=utf8,sec=ntlm,nosetuids,noperm 0 0
-    #cat /10.0.0.4/RunBat/a.txt
-    cd winmnt
-    ls
-    pwd
-    #java -jar RunnableSTMJava.jar TestManagerExecution.txt
+    java -jar RunnableSTMJava.jar TestManagerExecution.txt
