@@ -11,5 +11,4 @@ pool:
 
 steps:
 - script: |
-    java -jar RunnableSTMJava.jar TestManagerSoapui.txt
     java -jar RunnableSTMJava.jar TestManagerExecution.txt
